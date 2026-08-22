@@ -1,3 +1,3 @@
 # Shecodes AI
 
-Welcome to the Shecodes AI docs.
+Welcome to the Shecodes AI documentation thoroughly

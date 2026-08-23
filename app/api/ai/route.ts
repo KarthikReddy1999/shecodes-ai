@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
     const { action, ...data } = body;
 
     switch (action) {
-      // ─── ASSESSMENT ───
+      // ─── ASSESSMENT PAGE TO GET DETAILED INFO ───
       case "assess":
         const assessment = await generateLifeAssessment(data);
         return NextResponse.json({ result: assessment });
